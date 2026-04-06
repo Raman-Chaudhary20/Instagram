@@ -11,7 +11,7 @@ export const usePost = () => {
     const handleGetFeed = async () => {
         setLoading(true)
         const data = await getFeed()
-        setFeed(data.post)
+        setFeed(data.post.reverse())
         setLoading(false)
     }
 

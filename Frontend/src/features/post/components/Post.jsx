@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const Post = ({ user, post,loading, handleLike, handleUnLike }) => {
+const Post = ({ user, post, handleLike, handleUnLike }) => {
 
 
 
